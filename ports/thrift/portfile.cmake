@@ -9,9 +9,9 @@ vcpkg_find_acquire_program(BISON)
 
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
-    REPO apache/thrift
-    REF cecee50308fc7e6f77f55b3fd906c1c6c471fa2f #0.13.0
-    SHA512 4097fd7951a4d47f2fadc520a54fd1b91b10769d65e899c6bab490dd7ac459e12bb2aa335df8fdfc61a32095033bfac928a54660abb1ee54ca14a144216c3339
+    REPO Whatsapp-Protocol/thrift
+    REF 9f2550083b1524071fb7b1031f571cecf333b8bb #0.13.0
+    SHA512 9af7f3c8f5f4fa6d2ada69477acb91193337480251e72feabaee997d128472667a9d7ff27790966b14b95b6fe5d3bf2d11ed2761f7d251eedbd00af701dce662
     HEAD_REF master
     PATCHES
       "correct-paths.patch"
